@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday! </title>
+
+  <!-- Corrected Google Fonts -->
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="particles" id="particles"></div>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <h1 class="typewriter" id="typewriter">Happy Birthday! Babycakes 💕</h1>
+      <p class="subtitle fade-in">Today is all about celebrating you and the joy you bring to my life</p>
+      <div class="floating-hearts">
+        <div class="heart">💓</div>
+        <div class="heart">💖</div>
+        <div class="heart">💘</div>
+        <div class="heart">💗</div>
+        <div class="heart">💞</div>
+      </div>
+      <button class="cta-button" onclick="scrollToSection('gallery')">
+        Start the Celebration 🎉
+      </button>
+    </div>
+
+    <div class="scroll-indicator">
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- GALLERY SECTION -->
+  <section class="gallery-section" id="gallery">
+    <div class="container">
+      <h2 class="section-title">Our Beautiful Memories</h2>
+      <div class="gallery-grid">
+        <!-- Add your photo cards here (same as before) -->
+        <div class="photo-card" data-aos="fade-up" data-delay="100">
+          <div class="photo-container">
+            <img src="images/1.jpg"
+            alt="Beautiful moments">
+            <div class="photo-overlay">
+              <div class="photo-caption">Every moment with you is magical
+              </div>
+              <button class="like-btn" onclick="toggleLike(this)">
+                <span class="heart-icon">🤍</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="photo-card" data-aos="fade-up" data-delay="100">
+          <div class="photo-container">
+            <img src="images/2.jpg"
+            alt="Beautiful moments">
+            <div class="photo-overlay">
+              <div class="photo-caption">adventures together
+              </div>
+              <button class="like-btn" onclick="toggleLike(this)">
+                <span class="heart-icon">🤍</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="photo-card" data-aos="fade-up" data-delay="100">
+          <div class="photo-container">
+            <img src="images/3.jpg"
+            alt="Beautiful moments">
+            <div class="photo-overlay">
+              <div class="photo-caption">Your smile lights up my world
+              </div>
+              <button class="like-btn" onclick="toggleLike(this)">
+                <span class="heart-icon">🤍</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="photo-card" data-aos="fade-up" data-delay="100">
+          <div class="photo-container">
+            <img src="images/4.jpg"
+            alt="Beautiful moments">
+            <div class="photo-overlay">
+              <div class="photo-caption">My heart belong to you
+              </div>
+              <button class="like-btn" onclick="toggleLike(this)">
+                <span class="heart-icon">🤍</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="photo-card" data-aos="fade-up" data-delay="100">
+          <div class="photo-container">
+            <img src="images/5.jpg"
+            alt="Beautiful moments">
+            <div class="photo-overlay">
+              <div class="photo-caption">Creating memories together
+              </div>
+              <button class="like-btn" onclick="toggleLike(this)">
+                <span class="heart-icon">🤍</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="photo-card" data-aos="fade-up" data-delay="100">
+          <div class="photo-container">
+            <img src="images/6.jpg"
+            alt="Beautiful moments">
+            <div class="photo-overlay">
+              <div class="photo-caption">Always and forever
+              </div>
+              <button class="like-btn" onclick="toggleLike(this)">
+                <span class="heart-icon">🤍</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- MESSAGE SECTION -->
+  <section class="message-section" id="message">
+    <div class="container">
+      <div class="message-card">
+        <h2 class="message-title">A Special Message for a Special Girl</h2>
+        <div class="message-content">
+          <p class="message-text fade-in-text">
+            On your special day, I just want you to enjoy your day and have your life to be more successful. 
+            Wish you good health and more blessing to come. Happy birthday, mahal q! More bdays to come man nyahaha I love you!
+          </p>
+          <p class="message-signature fade-in-text">
+            (Ps: sorry di mahaba alam ko tamad ka din magbasa ng mahaba nyahahah)
+          </p>
+        </div>
+        <div class="message-hearts">
+          <span class="heart-animation">💘</span>
+          <span class="heart-animation">💖</span>
+          <span class="heart-animation">💕</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Made with 💖 for the most amazing person in the world</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
